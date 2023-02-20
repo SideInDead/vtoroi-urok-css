@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/ava7patterns_pattern_1301.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 21% 21%;
+    color: white;
+    background-attachment: fixed;
+}
+.wrapper{
+    max-width: 850px;
+    min-height: 100vh;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(100, 150, 200, 0.5)
+    /* overflow: auto; */
+}
+.wrapper h1{
+    /* margin-bottom: 35px; */
+    margin: 0 0 35px 0;
+
+}
+.wrapper p{
+    text-align: left;
+    margin: 0 0 35px 0;
+}
+.wrapper img{
+    width: 30%;
+    margin: 0 0 35px 0;
+}
+.imgParalax{
+    width: 100%;
+    height: 25vh;
+    background-image: url("https://api.lorem.space/image/game?w=1000&h=640&hash=78jgommt");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-attachment: fixed; */
+    background-position: center bottom;
+}
